@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.ratonera.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"AbstractContainerScreenAccessor",
+		"InventoryScreenMixin",
+		"ScreenInvoker"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

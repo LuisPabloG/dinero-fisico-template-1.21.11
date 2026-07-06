@@ -1,0 +1,7 @@
+{
+	"parent": "ratonera:item/billete_base",
+	"textures": {
+		"front": "ratonera:item/billete_50",
+		"particle": "ratonera:item/billete_50"
+	}
+}

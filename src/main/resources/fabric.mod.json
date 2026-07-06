@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "ratonera",
+	"version": "${version}",
+	"name": "Ratonera",
+	"description": "Sistema de economia fisica con billetes de quetzales.",
+	"authors": [
+		"lpvvs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://fabricmc.net/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ratonera/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ratonera.RatoneraMod"
+		],
+		"client": [
+			"com.ratonera.client.RatoneraClient"
+		]
+	},
+	"mixins": [
+		"ratonera.mixins.json",
+		{
+			"config": "ratonera.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
