@@ -38,5 +38,18 @@
 	"message.ratonera.transferencia_rechazada_receptor": "Rechazaste la transferencia de %s por %s Q.",
 	"message.ratonera.transferencia_cancelada_emisor": "La transferencia de %s por %s Q se cancelo porque se desconecto.",
 	"message.ratonera.transferencia_cancelada_destinatario": "La transferencia a %s por %s Q se cancelo y el dinero fue devuelto.",
-	"message.ratonera.transferencia_sobrante_suelo": "Tu inventario no tenia espacio suficiente. %s Q quedaron en el suelo."
+	"message.ratonera.transferencia_sobrante_suelo": "Tu inventario no tenia espacio suficiente. %s Q quedaron en el suelo.",
+	"block.ratonera.shop_block": "Tienda",
+	"container.ratonera.shop": "Tienda",
+	"screen.ratonera.shop_comprar": "Comprar",
+	"screen.ratonera.shop_precio": "Precio: %s Q",
+	"screen.ratonera.shop_inventario": "Inventario",
+	"screen.ratonera.shop_sin_precio": "La tienda no tiene precio asignado",
+	"message.ratonera.shop_sin_stock": "La tienda no tiene stock disponible.",
+	"message.ratonera.shop_sin_precio": "La tienda no tiene un precio asignado.",
+	"message.ratonera.shop_owner_compra": "Eres el dueno de esta tienda. No puedes comprarte a ti mismo.",
+	"message.ratonera.shop_fondos_insuficientes": "No tienes suficientes quetzales para comprar este articulo.",
+	"message.ratonera.shop_error_cobro": "No se pudo completar el cobro. Verifica que tienes billetes exactos.",
+	"message.ratonera.shop_suelo": "Tu inventario estaba lleno. El articulo cayo al suelo.",
+	"message.ratonera.shop_compra_exitosa": "Has comprado %s por %s Q."
 }

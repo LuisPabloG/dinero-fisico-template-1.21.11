@@ -38,5 +38,18 @@
 	"message.ratonera.transferencia_rechazada_receptor": "You rejected %s's transfer of %s Q.",
 	"message.ratonera.transferencia_cancelada_emisor": "%s's transfer of %s Q was cancelled because they disconnected.",
 	"message.ratonera.transferencia_cancelada_destinatario": "Your transfer to %s for %s Q was cancelled and refunded.",
-	"message.ratonera.transferencia_sobrante_suelo": "Your inventory had no room for all the bills. %s Q were dropped on the ground."
+	"message.ratonera.transferencia_sobrante_suelo": "Your inventory had no room for all the bills. %s Q were dropped on the ground.",
+	"block.ratonera.shop_block": "Shop",
+	"container.ratonera.shop": "Shop",
+	"screen.ratonera.shop_comprar": "Buy",
+	"screen.ratonera.shop_precio": "Price: %s Q",
+	"screen.ratonera.shop_inventario": "Inventory",
+	"screen.ratonera.shop_sin_precio": "The shop has no price set",
+	"message.ratonera.shop_sin_stock": "The shop has no stock available.",
+	"message.ratonera.shop_sin_precio": "The shop has no price set.",
+	"message.ratonera.shop_owner_compra": "You own this shop. You cannot buy from yourself.",
+	"message.ratonera.shop_fondos_insuficientes": "You do not have enough quetzales to buy this item.",
+	"message.ratonera.shop_error_cobro": "Could not complete the purchase. Check you have exact bills.",
+	"message.ratonera.shop_suelo": "Your inventory was full. The item dropped on the ground.",
+	"message.ratonera.shop_compra_exitosa": "You bought %s for %s Q."
 }

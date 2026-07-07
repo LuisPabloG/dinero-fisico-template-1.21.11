@@ -1,7 +1,10 @@
 package com.ratonera;
 
 import com.ratonera.network.RatoneraNetworking;
+import com.ratonera.registry.ModBlockEntities;
+import com.ratonera.registry.ModBlocks;
 import com.ratonera.registry.ModItems;
+import com.ratonera.registry.ModMenuTypes;
 import com.ratonera.transfer.TransferManager;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.Identifier;
@@ -15,6 +18,9 @@ public class RatoneraMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.register();
+		ModBlocks.register();
+		ModBlockEntities.register();
+		ModMenuTypes.register();
 		RatoneraNetworking.registerCommon();
 		TransferManager.initialize();
 		LOGGER.info("Ratonera inicio correctamente.");
